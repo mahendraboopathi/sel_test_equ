@@ -3,16 +3,13 @@ package com.eoxys.Main;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 
-@SpringBootApplication
 public class EquSelinium1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EquSelinium1Application.class, args);
+	
 		System.out.println("Hello.........World.....");
 		System.setProperty("webdriver.chrome.driver","C:/Users/New/Desktop/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
